@@ -1,0 +1,275 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:comp_for_project
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "MUSTAFA YILDIZ AMPLİFİER CİRCUİT"
+Date "2017-03-23"
+Rev "1.0"
+Comp "VENTSPİLS UNİVERSİTY"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC548 Q1
+U 1 1 58D394C7
+P 4250 4200
+F 0 "Q1" H 4450 4275 50  0000 L CNN
+F 1 "BC548" H 4450 4200 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 4450 4125 50  0001 L CIN
+F 3 "http://www.mouser.com/ds/2/149/BC547-190204.pdf" H 4250 4200 50  0001 L CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C 20uF1
+U 1 1 58D3956F
+P 3600 4200
+F 0 "20uF1" H 3625 4300 50  0000 L CNN
+F 1 "C" H 3625 4100 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3638 4050 50  0001 C CNN
+F 3 "http://www.es.co.th/Catalog/003.pdf" H 3600 4200 50  0001 C CNN
+	1    3600 4200
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 58D395F0
+P 3900 3550
+F 0 "R1" V 3980 3550 50  0000 C CNN
+F 1 "22k" V 3900 3550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 3550 50  0001 C CNN
+F 3 "http://elcodis.com/parts/1636504/CFR-25JR-22K.html#datasheet" H 3900 3550 50  0001 C TNN
+	1    3900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 58D39641
+P 4350 3550
+F 0 "R3" V 4430 3550 50  0000 C CNN
+F 1 "4,7k" V 4350 3550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 3550 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/691024.pdf" H 4350 3550 50  0001 C CNN
+	1    4350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 58D3967E
+P 5100 3900
+F 0 "C3" H 5125 4000 50  0000 L CNN
+F 1 "20uF" H 5125 3800 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L31.5mm_W9.0mm_P27.50mm_MKS4" H 5138 3750 50  0001 C CNN
+F 3 "http://eu.mouser.com/ProductDetail/Vishay-Sprague/TVA1410-E3/?qs=sGAEpiMZZMtZ1n0r9vR22fD1uTV3UxMj8VY1LQ3tMWg%3d" H 5100 3900 50  0001 C CNN
+	1    5100 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 58D396C3
+P 4850 4750
+F 0 "C2" H 4875 4850 50  0000 L CNN
+F 1 "50uF" H 4875 4650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Axial_L21.0mm_D8.0mm_P28.00mm_Horizontal" H 4888 4600 50  0001 C CNN
+F 3 "http://eu.mouser.com/ProductDetail/Vishay-Sprague/TVA1308-E3/?qs=sGAEpiMZZMtZ1n0r9vR22QsCVzpjG1J18Kh8sLvZs0U%3d" H 4850 4750 50  0001 C CNN
+	1    4850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 58D3971A
+P 4350 4800
+F 0 "R4" V 4430 4800 50  0000 C CNN
+F 1 "1,8k" V 4350 4800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 4800 50  0001 C CNN
+F 3 "http://www.futurlec.com/Resistors/R0018K14Wpr.shtml" H 4350 4800 50  0001 C CNN
+	1    4350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 58D3974F
+P 3900 4800
+F 0 "R2" V 3980 4800 50  0000 C CNN
+F 1 "6,8k" V 3900 4800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 4800 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/1838/CFR-50JB-6K8.php" H 3900 4800 50  0001 C CNN
+	1    3900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 58D397EC
+P 4350 5300
+F 0 "#PWR01" H 4350 5050 50  0001 C CNN
+F 1 "GND" H 4350 5150 50  0000 C CNN
+F 2 "" H 4350 5300 50  0000 C CNN
+F 3 "" H 4350 5300 50  0000 C CNN
+	1    4350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58D39810
+P 3050 4700
+F 0 "#PWR02" H 3050 4450 50  0001 C CNN
+F 1 "GND" H 3050 4550 50  0000 C CNN
+F 2 "" H 3050 4700 50  0000 C CNN
+F 3 "" H 3050 4700 50  0000 C CNN
+	1    3050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 58D39864
+P 5700 4300
+F 0 "#PWR03" H 5700 4050 50  0001 C CNN
+F 1 "GND" H 5700 4150 50  0000 C CNN
+F 2 "" H 5700 4300 50  0000 C CNN
+F 3 "" H 5700 4300 50  0000 C CNN
+	1    5700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12C #PWR04
+U 1 1 58D39888
+P 4900 3100
+F 0 "#PWR04" H 4900 2950 50  0001 C CNN
+F 1 "+12C" H 4900 3250 50  0000 C CNN
+F 2 "" H 4900 3100 50  0000 C CNN
+F 3 "" H 4900 3100 50  0000 C CNN
+	1    4900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 58D398AC
+P 6250 3950
+F 0 "P2" H 6250 4100 50  0000 C CNN
+F 1 "Sıgnal_Out" V 6350 3950 50  0000 C CNN
+F 2 "" H 6250 3950 50  0000 C CNN
+F 3 "" H 6250 3950 50  0000 C CNN
+	1    6250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 58D39B9F
+P 2600 4250
+F 0 "P1" H 2600 4400 50  0000 C CNN
+F 1 "Signal_İn" V 2700 4250 50  0000 C CNN
+F 2 "" H 2600 4250 50  0000 C CNN
+F 3 "" H 2600 4250 50  0000 C CNN
+	1    2600 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4200 3450 4200
+Wire Wire Line
+	2800 4300 3050 4300
+Wire Wire Line
+	3050 4300 3050 4700
+Wire Wire Line
+	3750 4200 4050 4200
+Wire Wire Line
+	3900 3700 3900 4650
+Connection ~ 3900 4200
+Wire Wire Line
+	3900 4950 3900 5300
+Wire Wire Line
+	3900 5300 4350 5300
+Wire Wire Line
+	4350 5300 4350 4950
+Wire Wire Line
+	4350 4650 4350 4400
+Wire Wire Line
+	4350 4000 4350 3700
+Wire Wire Line
+	3900 3400 4900 3400
+Wire Wire Line
+	4900 3400 4900 3100
+Connection ~ 4350 3400
+Wire Wire Line
+	5700 4300 5700 4000
+Wire Wire Line
+	5700 4000 6050 4000
+Wire Wire Line
+	6050 3900 5250 3900
+Wire Wire Line
+	4850 4600 4850 4500
+Wire Wire Line
+	4850 4500 4350 4500
+Connection ~ 4350 4500
+Wire Wire Line
+	4850 4900 4850 5050
+Wire Wire Line
+	4850 5050 4350 5050
+Connection ~ 4350 5050
+Wire Wire Line
+	4950 3900 4350 3900
+Connection ~ 4350 3900
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 58D3A4FD
+P 4550 3100
+F 0 "#FLG05" H 4550 3195 50  0001 C CNN
+F 1 "PWR_FLAG" H 4550 3280 50  0000 C CNN
+F 2 "" H 4550 3100 50  0000 C CNN
+F 3 "" H 4550 3100 50  0000 C CNN
+	1    4550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 58D3A54D
+P 4150 5650
+F 0 "#FLG06" H 4150 5745 50  0001 C CNN
+F 1 "PWR_FLAG" H 4150 5830 50  0000 C CNN
+F 2 "" H 4150 5650 50  0000 C CNN
+F 3 "" H 4150 5650 50  0000 C CNN
+	1    4150 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 3100 4550 3400
+Connection ~ 4550 3400
+Wire Wire Line
+	4150 5650 4150 5300
+Wire Wire Line
+	4150 5300 4100 5300
+Connection ~ 4100 5300
+$EndSCHEMATC
